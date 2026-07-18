@@ -9,10 +9,32 @@ print("""
 """)
 
 
-length = int(input("How long should the password be? "))
+length = int(input("Password length: "))
 
 
-characters = string.ascii_letters + string.digits + "!@#$%^&*"
+characters = ""
+
+
+uppercase = input("Include uppercase letters? (y/n): ")
+numbers = input("Include numbers? (y/n): ")
+symbols = input("Include symbols? (y/n): ")
+
+
+if uppercase == "y":
+    characters += string.ascii_uppercase
+
+
+if numbers == "y":
+    characters += string.digits
+
+
+if symbols == "y":
+    characters += "!@#$%^&*"
+
+
+if characters == "":
+    print("You must select at least one character option.")
+    exit()
 
 
 password = ""
@@ -25,5 +47,10 @@ for i in range(length):
     password += random_character
 
 
-print("\nGenerated Password:")
+print("""
+==========================
+ Generated Password
+==========================
+""")
+
 print(password)
