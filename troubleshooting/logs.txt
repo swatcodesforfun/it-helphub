@@ -1,0 +1,226 @@
+--------------------------------
+IT HelpHub Log
+
+Problem:
+my printer isnt working
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Problem:
+my printer isnt working
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Problem:
+my printer isnt working
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Problem:
+my printer isnt working
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 19:59:56.644376
+
+Problem:
+my printer isnt working sooo
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 19:59:56.646985
+
+Problem:
+my printer isnt working sooo
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 19:59:56.647862
+
+Problem:
+my printer isnt working sooo
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 19:59:56.649635
+
+Problem:
+my printer isnt working sooo
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 20:09:24.885954
+
+Problem:
+printer issues
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 20:09:45.186020
+
+Problem:
+printer
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 20:22:52.942885
+
+Problem:
+printer
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 20:23:17.595138
+
+Problem:
+MY PRINTER AINT WORKING SON
+
+Category: Hardware
+Severity: Low
+
+Solution Provided:
+- Check printer power and connections
+- Restart the printer
+- Check if the correct printer is selected
+- Update or reinstall printer drivers
+--------------------------------
+
+--------------------------------
+IT HelpHub Log
+
+Time: 2026-07-18 20:27:40.089976
+
+Problem:
+MY WIFI SUCKS SIR
+
+Category: Networking
+Severity: Medium
+
+Solution Provided:
+- Restart your router
+- Restart your computer
+- Forget the WiFi network and reconnect
+- Check if other devices can access the internet
+--------------------------------
+

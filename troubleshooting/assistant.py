@@ -1,42 +1,88 @@
-troubleshooting_database = {
+import datetime
+from database import troubleshooting_database
+from logger import save_log
 
-    "wifi": {
-        "category": "Networking",
-        "description": "Problems connecting to WiFi or accessing the internet.",
-        "solutions": [
-            "Restart your router",
-            "Restart your computer",
-            "Forget the WiFi network and reconnect",
-            "Check if other devices can access the internet"
-        ]
-    },
+def find_solution(user_problem):
+
+    user_problem = user_problem.lower()
+
+    for problem in troubleshooting_database:
+
+        if problem in user_problem:
+            return troubleshooting_database[problem]
+
+    return None
+
+def troubleshoot():
+
+    problem = input("What IT problem are you having? ")
+
+    solution = find_solution(problem)
 
 
-    "slow computer": {
-        "category": "Performance",
-        "description": "Computer running slowly or freezing.",
-        "solutions": [
-            "Close unnecessary programs",
-            "Restart your computer",
-            "Check available storage space",
-            "Disable unnecessary startup applications"
-        ]
-    }
+    if solution:
 
-}
+        print("\nCategory:", solution["category"])
 
-problem = input("Hello, what IT problem are you having?")
+        print("Severity:", solution["severity"])
 
-if problem in troubleshooting_database:
+        print("\nDescription:")
+        print(solution["description"])
 
-    issue = troubleshooting_database[problem]
+        print("\nPossible solutions:")
 
-    print("\nCategory:", issue["category"])
+        for item in solution["solutions"]:
+            print("-", item)
 
-    print("\nDescription:")
-    print(issue["description"])
+        save_log(problem, solution)
 
-    print("\nPossible solutions:")
 
-    for solution in issue["solutions"]:
-        print("-", solution)
+    else:
+
+        print("Sorry, I could not find a solution.")
+        
+
+while True:
+
+    print("""
+========================
+       IT HELP HUB
+========================
+
+1. Troubleshoot a problem
+2. View previous logs
+3. Exit
+
+========================
+""")
+
+
+    choice = input("Choose an option: ")
+
+
+    if choice == "1":
+
+        troubleshoot()
+
+
+    elif choice == "2":
+
+        print("\nPrevious Logs:\n")
+
+        try:
+            with open("logs.txt", "r") as file:
+                print(file.read())
+ 
+        except FileNotFoundError:
+            print("No logs found yet.")
+
+
+    elif choice == "3":
+
+        print("Thank you for using IT HelpHub!")
+        break
+
+
+    else:
+
+        print("Invalid option. Please choose 1, 2 or 3.")
