@@ -1,22 +1,21 @@
 import socket
 import platform
 import urllib.request
+import datetime
 
 print("""
-
-==========================
- IT HelpHub Network Checker
-==========================
+========================================
+        IT HELPHUB NETWORK REPORT
+========================================
 """)
 
 hostname = socket.gethostname()
-
-
-print("Computer Name:", hostname)
-
+current_time = datetime.datetime.now()
 ip_address = socket.gethostbyname(hostname)
 
-print("Local IP Address:", ip_address)
+print("Computer Name     :", hostname)
+print("Operating System  :", platform.system())
+print("Local IP Address  :", ip_address)
 
 try:
 
@@ -24,16 +23,16 @@ try:
 
     internet_status = True
 
-    print("Internet Connection: Available")
+    print("Internet Connection: Connected")
 
 
 except:
 
     internet_status = False
 
-    print("Internet Connection: Not Available")
+    print("Internet Connection: Not Connected")
 
-    
+
 
 print("\nTroubleshooting Advice:")
 
@@ -49,3 +48,16 @@ else:
     print("- Restart your router.")
     print("- Check your WiFi connection.")
     print("- Restart your computer.")
+
+
+print("\nStatus:")
+
+if internet_status:
+    print("✓ Your network appears to be working normally.")
+else:
+    print("✗ A network issue was detected.")
+    print("Try restarting your router or checking your WiFi.")
+
+print("\n========================================")
+print("Report generated:", current_time)
+print("========================================")
