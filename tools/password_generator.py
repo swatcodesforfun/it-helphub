@@ -2,55 +2,23 @@ import random
 import string
 
 
-print("""
-==========================
- IT HelpHub Password Generator
-==========================
-""")
+def generate_password(length, uppercase, numbers, symbols):
 
+    characters = string.ascii_lowercase
 
-length = int(input("Password length: "))
+    if uppercase:
+        characters += string.ascii_uppercase
 
+    if numbers:
+        characters += string.digits
 
-characters = ""
+    if symbols:
+        characters += "!@#$%^&*"
 
+    password = ""
 
-uppercase = input("Include uppercase letters? (y/n): ")
-numbers = input("Include numbers? (y/n): ")
-symbols = input("Include symbols? (y/n): ")
+    for i in range(length):
 
+        password += random.choice(characters)
 
-if uppercase == "y":
-    characters += string.ascii_uppercase
-
-
-if numbers == "y":
-    characters += string.digits
-
-
-if symbols == "y":
-    characters += "!@#$%^&*"
-
-
-if characters == "":
-    print("You must select at least one character option.")
-    exit()
-
-
-password = ""
-
-
-for i in range(length):
-
-    random_character = random.choice(characters)
-
-    password += random_character
-
-
-print("""
-==========================
- Generated Password
-==========================
-""")
-
-print(password)
+    return password
